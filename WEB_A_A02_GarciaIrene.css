@@ -1,0 +1,114 @@
+body {
+	
+	background-image: url("");
+    background-repeat: no-repeat;
+    background-position:top;
+	background-size: ;
+	background-attachment: fixed;
+	background-color: CornflowerBlue ;
+
+}
+#header {
+
+	background-image: url("guitarra.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-color: orange;
+	height: 700px;
+	width:100%;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+
+	
+}
+#nav {
+
+    padding: 10px; 
+    width: auto;
+	height: auto;
+    resize: both;
+    overflow: auto;
+	text-align: center;
+	margin: 10px auto;
+	font-size: 10px;
+	
+}
+#barra {
+	margin:auto;
+	width: 100%;
+	display: flex;
+	justify-content:space-between; 
+	flex-wrap: wrap;
+}
+.button {
+    margin: 10px;
+	padding: 50px;
+	text-align: center;
+	background-color:teal;
+	text-decoration: none;
+	color:white;
+	font-size: 13px;
+}
+
+.section  {
+	position: relative;
+	
+	height:508px;
+}
+
+
+.article {
+	position: absolute;
+	margin-left:50%;
+	width:50%;
+	height: 100%;
+	color: white;
+	background: url("guitarra.jpg");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+} 
+
+.article2 {
+	width:50%;
+	background-color:yellow;
+	height:100%;
+}
+.title{
+	text-align:center;
+	background-color:red;
+	padding: 70px;
+}
+
+#aside {
+	position: ;(fixed)
+	float:left;
+    top:400px;
+	width: 120px;
+	height: 120px;
+	display: block;
+	
+}
+#footer {
+	text-shadow: 5px 5px 6px blue;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 60px;
+}
+
+
+
+#buttonup {
+	position: absolute;
+    bottom: 100px;
+    left: 22%;
+    width: 50px;
+    height: 30px;
+	margin: 10px auto;
+	padding: 20px;
+	background-color: LightSteelBlue;
+	text-decoration: none;
+	color:white;
+}
