@@ -1,0 +1,133 @@
+body {
+
+	background-color: #8295F5;
+
+}
+
+#header {
+
+	background-image: url("acabados1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 700px;
+	width:100%;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	font-family:Courier New;
+
+}
+
+#title {
+	
+	padding: 200px;
+	font-size: 100px;
+	font-family:Courier New;
+	
+}
+	
+#nav {
+
+    padding: 10px; 
+    width: auto;
+	height: auto;
+	margin: 10px auto;
+	background-color: #8295F5;
+
+}
+
+#barra {
+
+	margin:auto;
+	width: 100%;
+	display: flex;
+	justify-content:space-between; 
+	flex-wrap: wrap;
+	
+}
+
+.button {
+
+	padding: 30px;
+	text-align: center;
+	background-color:teal;
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	font-family:Courier New;
+	
+}
+
+.section  {
+	
+	position: relative;
+	height:508px;
+	
+}
+
+.article {
+	
+	position: absolute;
+	margin-left:50%;
+	width:50%;
+	height: 100%;
+	color: white;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #8295F5;
+	
+	
+
+} 
+
+.article2 {
+	
+	width:50%;
+	height: 100%;
+	margin-right:50%;
+	background-color: #8295F5;
+	height:100%;
+	background-size:contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	font-family:Courier New;
+
+	
+}
+
+.title{
+	
+	text-align:center;
+	background-color: #8295F5;
+	color: #194952;
+	font-size:50px;
+	padding: 70px;
+	font-family:Courier New;
+	text-decoration: none;
+	
+}
+
+#acabados1 {
+	
+	background-image: url("acabados1.jpg");
+	
+}
+
+#acabados2 {
+	
+	background-image: url("acabados2.jpg");
+	
+}
+
+#acabados3 {
+	
+	background-image: url("acabados3.jpg");
+	
+}
+
+.video{
+	width: 100%;
+	height:100%;
+}
